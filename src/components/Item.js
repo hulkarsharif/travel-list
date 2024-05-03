@@ -1,3 +1,5 @@
+import PackingList from "./PackingList";
+
 const Item = ({ item, onDeleteItem, onToggleItem }) => {
     return (
         <li>

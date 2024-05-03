@@ -2,8 +2,7 @@ import { useState } from "react";
 import Logo from "./Logo";
 import Form from "./Form";
 import PackingList from "./PackingList";
-import Item from "./Item";
-import Stats from "./components/Stats";
+import Stats from "./Stats";
 
 const App = () => {
     const [items, setItems] = useState([]);
